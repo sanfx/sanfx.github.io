@@ -1,0 +1,61 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #1c1c1c, #2e2e2e);
+  color: #f0f0f0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  padding: 20px 40px;
+  border-bottom: 2px solid #444;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Space Mono', monospace;
+  color: #fff;
+}
+
+.highlight {
+  color: #00ffff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ccc;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00ffff;
+}
+
+main {
+  padding: 60px 40px;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  border-top: 2px solid #444;
+  font-size: 0.9rem;
+}
